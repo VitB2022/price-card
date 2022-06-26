@@ -61,6 +61,7 @@ body {
   text-align: center;
   opacity: 0.7;
   margin: 0;
+  font-weight: 400;
 }
 .price-card__price {
   height: 105px;
