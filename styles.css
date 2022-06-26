@@ -62,23 +62,23 @@ body {
   text-align: center;
   opacity: 0.7;
 }
-.price-card__value {
+.price-card__price {
   height: 105px;
   padding: 19px 110px;
 }
-.price-card__value-basic {
+.price-card__price-basic {
   background-color: #5BB189;
 }
-.price-card__value-business {
+.price-card__price-business {
   background-color: #3A6BA5;
 }
-.price-card__value-webshop {
+.price-card__price-webshop {
   background-color: #EC632A;
 }
 .price-card__info {
   height: 116px;
 }
-.price-card__value-euro {
+.price-card__price-item {
   font-weight: 700;
   font-size: 55px;
   line-height: 67px;

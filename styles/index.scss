@@ -61,23 +61,23 @@ body {
         text-align: center;
         opacity: 0.7;
     }
-    &__value {
+    &__price {
         height: 105px;
         padding: 19px 110px;
     }
-    &__value-basic {
+    &__price-basic {
         background-color: #5BB189;
     }
-    &__value-business {
+    &__price-business {
         background-color: #3A6BA5;
     }
-    &__value-webshop {
+    &__price-webshop {
         background-color: #EC632A;
     }
     &__info {
         height: 116px;
     }
-    &__value-euro {
+    &__price-item {
         font-weight: 700;
         font-size: 55px;
         line-height: 67px;
