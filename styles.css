@@ -25,7 +25,8 @@ body {
   margin-right: 18px;
 }
 .price-card__header {
-  height: 130px;
+  display: flex;
+  flex-direction: column;
 }
 .price-card__header-basic {
   padding: 33px 140px;
@@ -61,6 +62,7 @@ body {
   text-align: center;
   opacity: 0.7;
   margin: 0;
+  padding: 0;
   font-weight: 400;
 }
 .price-card__price {
