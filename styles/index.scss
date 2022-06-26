@@ -95,7 +95,7 @@ body {
         margin: auto;
         text-align: center;
     }
-    &__features {
+    &__options-list {
         font-weight: 300;
         height: 50px;
         font-size: 15px;
@@ -106,16 +106,16 @@ body {
         background-position: 22px center;
         background-size: 15px 13px;
     }
-    &__features-basic {
+    &__options-list__basic {
         background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
     }
-    &__features-business {
+    &__options-list__business {
         background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
     }
-    &__features-webshop {
+    &__options-list__webshop {
         background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
     }
-    &__features:nth-child(even) {
+    &__options-list:nth-child(even) {
         background-color: #2A3438;
     }
     &__button {
