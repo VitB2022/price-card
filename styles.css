@@ -37,6 +37,7 @@ body {
   overflow: hidden;
 }
 .price-card__header-webshop {
+  height: 133px;
   padding: 36px 102px 33px 102px;
 }
 .price-card__title {
