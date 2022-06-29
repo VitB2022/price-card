@@ -1,85 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display&family=Raleway&family=Roboto:wght@400;900&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&family=Roboto:wght@400;900&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display&family=Raleway&family=Roboto:wght@400;900&family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css">
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&family=Roboto:wght@400;900&family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Price cards</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section class="price-cards">
-        <div class="price-card">
-            <div class="price-card__header-basic price-card__header">
-                <h2 class="price-card__title-basic price-card__title">Basic</h2>
-                <h3 class="price-card__item">Website</h3>
-            </div>
-            <div class="price-card__price-basic price-card__price">
-                <span class="price-card__price-item">99€</span>
-            </div>
-            <div class="price-card__info">
-                <p class="price-card__info-text">Simple website made in the world's most popular CMS system, Wordpress.</p>
-            </div>
-            <div class="price-card__options-list__basic price-card__options-list">Website in WordPress</div>
-            <div class="price-card__options-list__basic price-card__options-list">3 sub pages</div>
-            <div class="price-card__options-list__basic price-card__options-list">Theme customized</div>
-            <div class="price-card__options-list__basic price-card__options-list">Help and guidance</div>
-            <div class="price-card__options-list__basic price-card__options-list">System introduction</div>
-            <div class="price-card__options-list__basic price-card__options-list">2 weeks free support</div>
-
-            <button class="price-card__button-green price-card__button">Order Now</button>
+      <div class="price-card">
+        <div class="price-card__header-basic price-card__header">
+          <h2 class="price-card__title">Basic</h2>
+          <h3 class="price-card__item">Website</h3>
         </div>
-        <div class="price-card">
+        <span class="price-card__price price-card__price-basic">99€</span>
+        <p class="price-card__info">
+          Simple website made in the world's most popular CMS system, Wordpress.
+        </p>
+        <div class="price-card__options-list options-list__basic">Website in WordPress</div>
+        <div class="price-card__options-list options-list__basic">3 sub pages</div>
+        <div class="price-card__options-list options-list__basic">Theme customized</div>
+        <div class="price-card__options-list options-list__basic">Help and guidance</div>
+        <div class="price-card__options-list options-list__basic">System introduction</div>
+        <div class="price-card__options-list options-list__basic">2 weeks free support</div>
 
-            <div class="price-card__header-business price-card__header">
-                <div class="header-business__label"><span class="header-business__text">Popular</span></div>
-                <h2 class="price-card__title-business price-card__title">Business</h2>
-                <h3 class="price-card__item">Website</h3>
+        <button class="price-card__button-green price-card__button">Order Now</button>
+      </div>
 
-            </div>
-            <div class="price-card__price-business price-card__price">
-                <span class="price-card__price-item">299€</span>
-            </div>
-            <div class="price-card__info">
-                <p class="price-card__info-text">Advanced website made in the world's most popular CMS system, Wordpress.</p>
-            </div>
-            <div class="price-card__options-list__business price-card__options-list">Website in WordPress</div>
-            <div class="price-card__options-list__business price-card__options-list">3-5 sub pages</div>
-            <div class="price-card__options-list__business price-card__options-list">Theme customized</div>
-            <div class="price-card__options-list__business price-card__options-list">Help and guidance</div>
-            <div class="price-card__options-list__business price-card__options-list">System introduction</div>
-            <div class="price-card__options-list__business price-card__options-list">1 month free support</div>
-
-            <button class="price-card__button-blue price-card__button">Order Now</button>
+      <div class="price-card">
+        <div class="price-card__header price-card__header-business">
+          <div class="header-business__label">
+            <span class="header-business__text">Popular</span>
+          </div>
+          <h2 class="price-card__title">Business</h2>
+          <h3 class="price-card__item">Website</h3>
         </div>
-        <div class="price-card">
-            <div class="price-card__header-webshop price-card__header">
-                <h2 class="price-card__title-webshop price-card__title">Webshop</h2>
-                <h3 class="price-card__item">Website</h3>
-            </div>
-            <div class="price-card__price-webshop price-card__price">
-                <span class="price-card__price-item">599€</span>
-            </div>
-            <div class="price-card__info">
-                <p class="price-card__info-text">Your very own webshop made the world's most popular CMS system, Wordpress.</p>
-            </div>
-            <div class="price-card__options-list__webshop price-card__options-list">Webshop in WordPress</div>
-            <div class="price-card__options-list__webshop price-card__options-list">3-5 sub pages</div>
-            <div class="price-card__options-list__webshop price-card__options-list">Theme customized</div>
-            <div class="price-card__options-list__webshop price-card__options-list">Help and guidance</div>
-            <div class="price-card__options-list__webshop price-card__options-list">System introduction</div>
-            <div class="price-card__options-list__webshop price-card__options-list">1 month free support</div>
+        <span class="price-card__price price-card__price-business">299€</span>
+        <p class="price-card__info">
+          Advanced website made in the world's most popular CMS system, Wordpress.
+        </p>
+        <div class="price-card__options-list options-list__business">Website in WordPress</div>
+        <div class="price-card__options-list options-list__business">3-5 sub pages</div>
+        <div class="price-card__options-list options-list__business">Theme customized</div>
+        <div class="price-card__options-list options-list__business">Help and guidance</div>
+        <div class="price-card__options-list options-list__business">System introduction</div>
+        <div class="price-card__options-list options-list__business">1 month free support</div>
 
-            <button class="price-card__button-orange price-card__button">Order Now</button>
+        <button class="price-card__button-blue price-card__button">Order Now</button>
+      </div>
+
+      <div class="price-card">
+        <div class="price-card__header price-card__header-webshop">
+          <h2 class="price-card__title">Webshop</h2>
+          <h3 class="price-card__item">Website</h3>
         </div>
+        <span class="price-card__price price-card__price-webshop">599€</span>
+        <p class="price-card__info">
+          Your very own webshop made the world's most popular CMS system, Wordpress.
+        </p>
+        <div class="price-card__options-list options-list__webshop">Webshop in WordPress</div>
+        <div class="price-card__options-list options-list__webshop">3-5 sub pages</div>
+        <div class="price-card__options-list options-list__webshop">Theme customized</div>
+        <div class="price-card__options-list options-list__webshop">Help and guidance</div>
+        <div class="price-card__options-list options-list__webshop">System introduction</div>
+        <div class="price-card__options-list options-list__webshop">1 month free support</div>
 
+        <button class="price-card__button-orange price-card__button">Order Now</button>
+      </div>
     </section>
-</body>
-
+  </body>
 </html>
