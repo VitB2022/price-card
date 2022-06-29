@@ -150,6 +150,10 @@ body {
 }
 
 .header-business__label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 25px;
   height: 147px;
   position: absolute;
@@ -162,10 +166,6 @@ body {
   top: -31px;
   right: 31px;
   text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .header-business__text {
