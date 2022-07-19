@@ -1,3 +1,5 @@
+@import 'variables.scss';
+
 * {
   box-sizing: border-box;
 }
@@ -48,7 +50,7 @@ body {
     font-weight: 700;
     font-size: 35px;
     line-height: 43px;
-    color: #ffffff;
+    color: $base-font-color;
     margin: 0 auto;
   }
 
@@ -67,7 +69,7 @@ body {
   &__item {
     font-size: 20px;
     line-height: 24px;
-    color: #ffffff;
+    color: $base-font-color;
     text-align: center;
     opacity: 0.7;
     margin: 0;
@@ -82,7 +84,7 @@ body {
     font-size: 55px;
     line-height: 67px;
     text-align: center;
-    color: #ffffff;
+    color: $base-font-color;
   }
 
   &__price-basic {
@@ -102,7 +104,7 @@ body {
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
-    color: #ffffff;
+    color: $base-font-color;
     opacity: 0.7;
     padding: 40px 26px;
     text-align: center;
@@ -134,7 +136,7 @@ body {
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-    color: #ffffff;
+    color: $base-font-color;
   }
 
   &__button-green {
@@ -182,7 +184,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  color: #ffffff;
+  color: $base-font-color;
   top: -31px;
   right: 31px;
   text-transform: uppercase;
