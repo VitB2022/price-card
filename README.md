@@ -1,6 +1,6 @@
 # Price-cards Project
 
-### [Site link](https://github.com/VitB2022/price-card)
+### [Site link](https://vitb2022.github.io/price-card/)
 
 Layout supports only desktop version
 
