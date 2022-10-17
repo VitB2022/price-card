@@ -1,6 +1,5 @@
 .price-card {
   width: 380px;
-  height: 770px;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   margin-right: 18px;
@@ -22,7 +21,7 @@
 
   &__header-webshop {
     height: 133px;
-    padding: 36px 102px 33px 102px;
+    padding: 33px 102px;
   }
 
   &__title {
@@ -45,7 +44,7 @@
     width: 176px;
   }
 
-  &__item {
+  &__subtitle {
     font-size: 20px;
     line-height: 24px;
     color: $base-font-color;
@@ -114,13 +113,13 @@
     background-color: #ec632a;
     margin: 39px 113px 37px 112px;
   }
-}
 
-.options-list {
-  margin: 0;
-  padding-left: 0;
+  &__options-list {
+    margin: 0;
+    padding-left: 0;
+  }
 
-  &__item {
+  &__options-list-item {
     list-style-type: none;
     font-weight: 300;
     height: 50px;
@@ -132,21 +131,38 @@
     background-position: 22px center;
     background-size: 15px 13px;
   }
-
-  &__item_basic {
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
+  &__icon_green {
+    display: inline-block;
+    background-image: url(images/icon_green.png);
+    width: 16px;
+    height: 13px;
+    margin-top: 18px;
+    margin-left: 22px;
+    position: absolute;
   }
 
-  &__item_business {
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
+  &__icon_blue {
+    display: inline-block;
+    background-image: url(images/icon_blue.png);
+    width: 16px;
+    height: 13px;
+    margin-top: 18px;
+    margin-left: 22px;
+    position: absolute;
   }
 
-  &__item_webshop {
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
+  &__icon_orange {
+    display: inline-block;
+    background-image: url(images/icon_orange.png);
+    width: 16px;
+    height: 13px;
+    margin-top: 18px;
+    margin-left: 22px;
+    position: absolute;
   }
 }
 
-.options-list__item:nth-child(odd) {
+.options-list-item_gray {
   background-color: #2a3438;
 }
 
